@@ -1,0 +1,29 @@
+{
+  "name": "mulgravevilla",
+  "version": "1.0.0",
+  "description": "https://mulgravevilla.com/",
+  "main": "./app/index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syltaxue/mulgravevilla.git"
+  },
+  "keywords": [
+    "homework1"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syltaxue/mulgravevilla/issues"
+  },
+  "homepage": "https://github.com/syltaxue/mulgravevilla#readme"
+}
