@@ -3,3 +3,15 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.customButton： {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.custom-underline:active, .custom-underline:focus, .custom-underline:hover {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}

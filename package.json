@@ -2,7 +2,7 @@
   "name": "mulgravevilla",
   "version": "1.0.0",
   "description": "https://mulgravevilla.com/",
-  "main": "./app/index.js",
+  "main": "./src/react/index.js",
   "dependencies": {
     "postcss-import": "^14.0.1",
     "react": "^17.0.2",
