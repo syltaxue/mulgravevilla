@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './app/index.js',
+  entry: './src/index.js',
   output: {
     path: path.join(__dirname, '/bundle'),
     filename: 'bundle.js'
@@ -16,7 +16,12 @@ module.exports = {
       { test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
-      }
+      },
+      {
+        test: /\.css$/i,
+        include: path.resolve(__dirname, 'src/assets/css'),
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
+      },
     ]
   },
   plugins:[
