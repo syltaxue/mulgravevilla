@@ -5,8 +5,8 @@ import MenuOption from './menuOption';
 class Header extends React.Component {
     render() {
           return (
-              <div>
-                <div id="sticketHeader" className="sticky top-0 bg-white text-black font-bebas font-normal">
+
+                <div className="fixed z-50 top-0 w-full bg-white text-black font-bebas font-normal">
                     <div className="py-9 xl:py-6 flex flex-col w-full items-center">
                         <div className="w-4/5 lg:w-11/12 justify-between items-center flex">
                             <div className="flex-shrink-0 float-left">
@@ -25,7 +25,7 @@ class Header extends React.Component {
                         </div>
                     </div>
                 </div>
-              </div>
+
                 )
         }
 };

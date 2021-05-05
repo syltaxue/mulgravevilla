@@ -21,16 +21,6 @@
     background-color: rgba(248,97,34,var(--tw-bg-opacity));
 }
 
-.text-regular {
-    font-size: 4rem;
-    line-height: 4.25rem;
-}
-
-.text-xlarge {
-    font-size: 10rem;
-    line-height: 10.25rem;
-}
-
 .text-regularView-xlarge {
     font-size: 5rem;
     line-height: 5.25rem;
@@ -39,4 +29,27 @@
 .text-regularView-regular {
     font-size: 2.5rem;
     line-height: 2.75rem;
+}
+
+.bg-mulgrave-gray {
+    --tw-bg-opacity: 1;
+    background-color: rgba(42,50,62,var(--tw-bg-opacity));
+}
+
+.lg\:text-regular {
+    font-size: 4rem;
+    line-height: 4.25rem;
+}
+
+.lg\:text-xlarge {
+    font-size: 10rem;
+    line-height: 10.25rem;
+}
+
+.font-bebas {
+    font-family: "Bebas Neue", cursive;
+}
+
+.home-margin {
+    margin-top: 7rem;
 }
