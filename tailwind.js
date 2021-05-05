@@ -5,6 +5,18 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      spacing: {
+        '112': '28rem',
+        '128': '32rem',
+        '144': '36rem',
+        '160': '40rem',
+        '176': '44rem',
+        '192': '48rem',
+        '288': '72rem',
+        '384': '96rem',
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
