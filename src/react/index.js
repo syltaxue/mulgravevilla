@@ -5,7 +5,7 @@ import Header from './header';
 import Home from './Home';
 import SizeInfo from './SizeInfo';
 import LotPicture from './LotPicture';
-import NeighbourHood from './NeighbourHood';
+import Neighbourhood from './Neighbourhood';
 
 class Doc extends React.Component {
     render() {
@@ -15,7 +15,7 @@ class Doc extends React.Component {
                     <Home></Home>
                     <SizeInfo></SizeInfo>
                     <LotPicture/>
-                    <NeighbourHood></NeighbourHood>
+                    <Neighbourhood></Neighbourhood>
                   </div>
                 )
         }
