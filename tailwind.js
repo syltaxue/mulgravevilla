@@ -164,7 +164,9 @@ module.exports = {
       DEFAULT: '1px',
       0: '0px',
       2: '2px',
+      3: '3px',
       4: '4px',
+      6: '6px',
       8: '8px',
     },
     boxShadow: {
@@ -275,6 +277,12 @@ module.exports = {
       ],
     },
     fontSize: {
+      xxtiny: ['0.5rem', { lineHeight: '0.75rem' }],
+      xxsmall: ['1.5rem', { lineHeight: '1.75rem' }],
+      xsmall: ['2.5rem', { lineHeight: '2.75rem' }],
+      regular: ['4rem', { lineHeight: '4.25rem' }],
+      large: ['7.5rem', { lineHeight: '7.75rem' }],
+      xlarge: ['10rem', { lineHeight: '10.25rem' }],
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],

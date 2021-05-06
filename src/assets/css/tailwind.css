@@ -41,21 +41,6 @@
     background-color: rgba(42,50,62,var(--tw-bg-opacity));
 }
 
-.lg\:text-regular {
-    font-size: 4rem;
-    line-height: 4.25rem;
-}
-
-.lg\:text-xlarge {
-    font-size: 10rem;
-    line-height: 10.25rem;
-}
-
-.lg\:text-large {
-    font-size: 7.5rem;
-    line-height: 7.75rem;
-}
-
 .font-bebas {
     font-family: "Bebas Neue", cursive;
 }
@@ -64,6 +49,27 @@
     margin-top: 7rem;
 }
 
-.lg\:w-192 {
-    width: 48rem;
+.font-roboto {
+    font-family: "Roboto",sans-serif;
+}
+
+.text-mv-xtiny {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.text-mv-xsmall {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.text-mv-xxsmall {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.bg-gradient {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 5%, black 100%);
+    mask-image: linear-gradient(to bottom, transparent 5%, black 100%);
+
 }
