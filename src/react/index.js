@@ -6,6 +6,8 @@ import Home from './Home';
 import SizeInfo from './SizeInfo';
 import LotPicture from './LotPicture';
 import Neighbourhood from './Neighbourhood';
+import Opportunity from './Opportunity';
+import UnitMap from './UnitMap';
 
 class Doc extends React.Component {
     render() {
@@ -16,6 +18,8 @@ class Doc extends React.Component {
                     <SizeInfo></SizeInfo>
                     <LotPicture/>
                     <Neighbourhood></Neighbourhood>
+                    <Opportunity></Opportunity>
+                    <UnitMap></UnitMap>
                   </div>
                 )
         }

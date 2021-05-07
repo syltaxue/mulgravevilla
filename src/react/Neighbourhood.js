@@ -9,7 +9,9 @@ class Neighbourhood extends React.Component {
                         <p className="text-regularView-regular lg:text-regular font-bebas">NEIGHBOURHOOD</p>
                         <p className="text-mv-xxsmall lg:text-tiny font-roboto mt-5 lg:mt-10">The site offers breathtaking, sweeping ocean views from Downtown Vancouver to Georgia Strait.</p>
                     </div>
-                    <div className="hidden lg:block lg:w-full lg:h-full"> <img src="/assets/img/Neighbourhood-desktop.jpg"></img></div>
+                    <div className="hidden lg:w-full lg:h-full relative lg:table-row"> 
+                            <img src="/assets/img/Neighbourhood-desktop.jpg"></img>
+                    </div>
                 </div>
                 )
         }
