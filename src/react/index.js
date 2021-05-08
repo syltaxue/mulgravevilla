@@ -8,6 +8,7 @@ import LotPicture from './LotPicture';
 import Neighbourhood from './Neighbourhood';
 import Opportunity from './Opportunity';
 import UnitMap from './UnitMap';
+import UnitCarousel from './UnitCarousel';
 
 class Doc extends React.Component {
     render() {
@@ -20,6 +21,7 @@ class Doc extends React.Component {
                     <Neighbourhood></Neighbourhood>
                     <Opportunity></Opportunity>
                     <UnitMap></UnitMap>
+                    <UnitCarousel></UnitCarousel>
                   </div>
                 )
         }

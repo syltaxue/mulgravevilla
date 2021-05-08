@@ -15,6 +15,10 @@
     display: inline-block;
     text-align: center;
 }
+.bg-mulgrave-unitbackground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238,238,238,var(--tw-bg-opacity));
+}
 
 .bg-mulgrave-orange {
     --tw-bg-opacity: 1;
