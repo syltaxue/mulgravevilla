@@ -9,6 +9,10 @@ import Neighbourhood from './Neighbourhood';
 import Opportunity from './Opportunity';
 import UnitMap from './UnitMap';
 import UnitCarousel from './UnitCarousel';
+import FloorPlans from './FloorPlans';
+import CommunityPicture from './CommunityPicture';
+import Design from './Design';
+import DesignImg from './DesignImg';
 
 class Doc extends React.Component {
     render() {
@@ -22,6 +26,10 @@ class Doc extends React.Component {
                     <Opportunity></Opportunity>
                     <UnitMap></UnitMap>
                     <UnitCarousel></UnitCarousel>
+                    <FloorPlans></FloorPlans>
+                    <CommunityPicture></CommunityPicture>
+                    <Design></Design>
+                    <DesignImg></DesignImg>
                   </div>
                 )
         }
