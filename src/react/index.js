@@ -13,6 +13,9 @@ import FloorPlans from './FloorPlans';
 import CommunityPicture from './CommunityPicture';
 import Design from './Design';
 import DesignImg from './DesignImg';
+import MulgraveVillaImg from './MulgraveVillaImg';
+import Team from './Team';
+import Contact from './Contact';
 
 class Doc extends React.Component {
     render() {
@@ -30,6 +33,9 @@ class Doc extends React.Component {
                     <CommunityPicture></CommunityPicture>
                     <Design></Design>
                     <DesignImg></DesignImg>
+                    <MulgraveVillaImg></MulgraveVillaImg>
+                    <Team></Team>
+                    <Contact></Contact>
                   </div>
                 )
         }
