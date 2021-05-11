@@ -11,10 +11,10 @@ class CommunityPicture extends React.Component {
                     </div>
                 </div>
                 <div className="absolute -bottom-10 lg:-bottom-80 right-0">
-                    <img className="hidden lg:block" src="/assets/img/MulgraveSchool-Rec-Desktop.jpg"></img>
-                    <img className="lg:hidden block" src="/assets/img/MulgraveSchool-Rec-Mobile.jpg"></img>
+                    <img className="hidden lg:block" src="./assets/img/MulgraveSchool-Rec-Desktop.jpg"></img>
+                    <img className="lg:hidden block" src="./assets/img/MulgraveSchool-Rec-Mobile.jpg"></img>
                 </div>
-                <img className="h-96 lg:h-auto" src="/assets/img/MulgraveSchool.jpg"></img>
+                <img className="h-96 lg:h-auto" src="./assets/img/MulgraveSchool.jpg"></img>
             </div>
         )
     }

@@ -16,32 +16,32 @@ class UnitCarousel extends React.Component {
 
             var carouselItems = [
                   {
-                        src: "/assets/img/Carousel01.jpg",
+                        src: "./assets/img/Carousel01.jpg",
                         alt: "Carousel01",
                         id: 1,
                   },
                   {
-                        src: "/assets/img/Carousel02.jpg",
+                        src: "./assets/img/Carousel02.jpg",
                         alt: "Carousel02",
                         id:2,
                   },
                   {
-                        src: "/assets/img/Carousel03.jpg",
+                        src: "./assets/img/Carousel03.jpg",
                         alt: "Carousel03",
                         id:3,
                   },
                   {
-                        src: "/assets/img/Carousel01.jpg",
+                        src: "./assets/img/Carousel01.jpg",
                         alt: "Carousel01",
                         id:4,
                   },
                   {
-                        src: "/assets/img/Carousel02.jpg",
+                        src: "./assets/img/Carousel02.jpg",
                         alt: "Carousel02",
                         id:5,
                   },
                   {
-                        src: "/assets/img/Carousel03.jpg",
+                        src: "./assets/img/Carousel03.jpg",
                         alt: "Carousel03",
                         id:6,
                   },

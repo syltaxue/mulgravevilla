@@ -28,11 +28,11 @@ class Contact extends React.Component {
         return (
             <div className="w-full mt-32 lg:mt-64 grid lg:grid-flow-row lg:grid-cols-4 lg:grid-rows-1">
                 <div className="grid-span-1">
-                    <img src="/assets/img/PualPhoto.jpg" alt="PualPhoto"></img>
+                    <img src="./assets/img/PualPhoto.jpg" alt="PualPhoto"></img>
                     <div className="px-10 py-16">
                         <p className="p-2 lg:p-4 text-mv-xsmall lg:text-xsmall font-bebas font-normal text-black">PAUL TAN</p>
                         <p className="p-2 lg:p-4 text-mv-tiny lg:text-xtiny font-roboto font-normal text-black">PHONE / 7789986870<br></br>EMAIL / info@paultanhomes.com</p>
-                        <img className="px-2 py-4 lg:p-4 ml-0 w-56" src="/assets/img/MarineVistaRealtyLogo.png" alt="MarineVistaRealtyLogo"></img>
+                        <img className="px-2 py-4 lg:p-4 ml-0 w-56" src="./assets/img/MarineVistaRealtyLogo.png" alt="MarineVistaRealtyLogo"></img>
                     </div>
                 </div>
                 <div className="grid-span-1 bg-mulgrave-gray text-white justify-center flex">

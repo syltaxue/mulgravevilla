@@ -10,7 +10,7 @@ class Neighbourhood extends React.Component {
                         <p className="text-mv-xxsmall lg:text-tiny font-roboto mt-5 lg:mt-10">The site offers breathtaking, sweeping ocean views from Downtown Vancouver to Georgia Strait.</p>
                     </div>
                     <div className="hidden lg:w-full lg:h-full relative lg:table-row"> 
-                            <img src="/assets/img/Neighbourhood-desktop.jpg"></img>
+                            <img src="./assets/img/Neighbourhood-desktop.jpg"></img>
                     </div>
                 </div>
                 )

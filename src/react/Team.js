@@ -5,7 +5,7 @@ class Team extends React.Component {
     render() {
           return (
                 <div className="w-full grid lg:grid-flow-row lg:grid-cols-3 lg:grid-rows-1">
-                    <div className="col-span-2"><img src="/assets/img/Team01.jpg"></img></div>
+                    <div className="col-span-2"><img src="./assets/img/Team01.jpg"></img></div>
                     <div className="lg:pl-16 lg:py-20 lg:w-4/5 lg:m-auto">
                         <p className="text-mv-regular lg:text-regular font-bebas font-nomral text-black">TEAM</p>
                         <div className="mt-10 lg:w-5/6 font-roboto text-black">
@@ -25,8 +25,8 @@ class Team extends React.Component {
                             <p className="lg:text-tiny font-light">GVH Consulting</p>
                         </div>
                         <div className="mt-10 lg:mt-20">
-                            <img className="w-32 lg:w-44" src="assets/img/logo-LQ.png" alt="logo-LQ"></img>
-                            <img className="w-32 lg:w-44" src="assets/img/logo-Vansoho.png" alt="logo-Vansoho"></img>
+                            <img className="w-32 lg:w-44" src="./assets/img/logo-LQ.png" alt="logo-LQ"></img>
+                            <img className="w-32 lg:w-44" src="./assets/img/logo-Vansoho.png" alt="logo-Vansoho"></img>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ class Home extends React.Component {
     render() {
           return (
                 <div id="Home" className="relative text-white font-bebas home-margin">
-                      <img src="/assets/img/Banner.jpg" className="z-0"></img>
+                      <img src="./assets/img/Banner.jpg" className="z-0"></img>
                       <div className="absolute top-24 left-10 lg:top-56 lg:left-28 z-10">
                             <div className="relative">
                               <div className="absolute -left-4 -top-8 lg:-left-8 lg:-top-16 z-30 whitespace-nowrap">
